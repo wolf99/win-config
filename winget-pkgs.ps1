@@ -4,6 +4,7 @@
 # Requirement
 #
 # - winget-cli (https://github.com/microsoft/winget-cli)
+#   - If scripting this, see: https://gist.github.com/lukechilds/a83e1d7127b78fef38c2914c4ececc3c
 #
 # Not Installed
 #
