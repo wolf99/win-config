@@ -32,9 +32,12 @@
 winget source update
 
 winget install Google.Chrome
-# winget install Git.Git  # Assumes already installed
-winget install Microsoft.WindowsTerminal Microsoft.VisualStudioCode
-# winget install Notepad++.Notepad++
 winget File-New-Project.EarTrumpet
 winget TranslucentTB.TranslucentTB
 winget qBittorrent.qBittorrent
+
+winget install Microsoft.WindowsTerminal Microsoft.VisualStudioCode
+Write-Host "Installing Code Settings Sync extension in VSCode"
+Write-Host "You should restore settings from your GitHub gist"
+Write-Host "(https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)"
+code --install-extension Shan.code-settings-sync
