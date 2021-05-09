@@ -2,10 +2,8 @@
 
 Some Simple scripts that help me get a fresh machine set up
 
-Consider using the following to uninstall a whole bunch of default apps that come with Windows out of the box.
+Consider using [RemoveDefaultApps.ps1][] to uninstall lots of default apps that come with Windows out of the box.
 May need to edit the list as probably want to keep some of the ones this script removes by default
-
-https://github.com/microsoft/windows-dev-box-setup-scripts/blob/master/scripts/RemoveDefaultApps.ps1
 
 ## 1. Enable-WSL-pre-restart
 
@@ -34,3 +32,9 @@ Installs some packages I like to have ready.
 See script comments for usage and for some packages that are _not_ installed.
 
 Requires winget-cli (from GitHub, see script comments for link).
+
+## 5. File-explorer-settings
+
+Sets some basi settings that I like for Windows File Explorer
+
+[RemoveDefaultApps.ps1]: https://github.com/microsoft/windows-dev-box-setup-scripts/blob/master/scripts/RemoveDefaultApps.ps1
