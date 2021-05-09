@@ -37,4 +37,10 @@ Requires winget-cli (from GitHub, see script comments for link).
 
 Sets some basi settings that I like for Windows File Explorer
 
+## TODO
+
+- Automate download and install of WT settings
+- Automate download and install of WSL Ubuntu dotfiles
+- Automate sync and download of vSCode settings if sync plugin allows
+
 [RemoveDefaultApps.ps1]: https://github.com/microsoft/windows-dev-box-setup-scripts/blob/master/scripts/RemoveDefaultApps.ps1
