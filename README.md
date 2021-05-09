@@ -35,7 +35,7 @@ Requires winget-cli (from GitHub, see script comments for link).
 
 ## 5. File-explorer-settings
 
-Sets some basi settings that I like for Windows File Explorer
+Sets some basic settings that I like for Windows File Explorer
 
 ## TODO
 
