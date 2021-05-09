@@ -24,8 +24,8 @@ Requires Unix username and password to be set towards the end of the script.
 
 ## 3. Winget-pkgs
 
-Installs some Microsoft Windows packages I like to have ready.
+Installs some packages I like to have ready.
 
-Assumes git is already installed and so does not install this (see script for other packages that are _not_ installed).
+See script comments for usage and for some packages that are _not_ installed.
 
-Requires winget-cli (from GitHub, see script for link).
+Requires winget-cli (from GitHub, see script comments for link).

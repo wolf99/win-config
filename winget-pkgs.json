@@ -1,0 +1,50 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.1.0.json",
+	"CreationDate" : "2021-05-09T12:46:37.721-00:00",
+	"Sources" :
+	[
+		{
+			"Packages" :
+			[
+				{
+					"Id" : "Git.Git"
+				},
+				{
+					"Id" : "Google.Chrome"
+				},
+				{
+					"Id" : "qBittorrent.qBittorrent"
+				},
+				{
+					"Id" : "Notepad++.Notepad++"
+				},
+				{
+					"Id" : "Giorgiotani.Peazip"
+				},
+				{
+					"Id" : "calibre.calibre"
+				},
+				{
+					"Id" : "VideoLAN.VLC"
+				},
+				{
+					"Id" : "Discord.Discord"
+				},
+				{
+					"Id" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"Id" : "Microsoft.VisualStudioCode"
+				}
+			],
+			"SourceDetails" :
+			{
+				"Argument" : "https://winget.azureedge.net/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion" : "0.3.11102"
+}
