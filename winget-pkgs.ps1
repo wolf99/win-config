@@ -2,7 +2,7 @@
 #
 # Requirements
 #
-# - winget-cli (https://github.com/microsoft/winget-cli) - install from Microsoft Store
+# - winget-cli (https://github.com/microsoft/winget-cli), i.e. install "App Installer" from Microsoft Store
 #
 # Not Installed
 #
