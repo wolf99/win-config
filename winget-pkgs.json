@@ -1,50 +1,54 @@
 {
-	"$schema" : "https://aka.ms/winget-packages.schema.1.0.json",
-	"CreationDate" : "2021-05-09T12:46:37.721-00:00",
-	"Sources" :
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2023-02-28T21:06:31.484-00:00",
+	"Sources" : 
 	[
 		{
-			"Packages" :
+			"Packages" : 
 			[
+				
 				{
-					"Id" : "Git.Git"
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
-					"Id" : "Google.Chrome"
+					"PackageIdentifier" : "Git.Git"
 				},
 				{
-					"Id" : "qBittorrent.qBittorrent"
+					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
-					"Id" : "Notepad++.Notepad++"
+					"PackageIdentifier" : "Google.Chrome"
 				},
 				{
-					"Id" : "Giorgiotani.Peazip"
+					"PackageIdentifier" : "MetaGeek.inSSIDer"
 				},
 				{
-					"Id" : "calibre.calibre"
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"Id" : "VideoLAN.VLC"
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				},
 				{
-					"Id" : "Discord.Discord"
+					"PackageIdentifier" : "Mp3tag.Mp3tag"
 				},
 				{
-					"Id" : "Microsoft.WindowsTerminal"
+					"PackageIdentifier" : "Notepad++.Notepad++"
 				},
 				{
-					"Id" : "Microsoft.VisualStudioCode"
+					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
+				},
+				{
+					"PackageIdentifier" : "VideoLAN.VLC"
 				}
 			],
-			"SourceDetails" :
+			"SourceDetails" : 
 			{
-				"Argument" : "https://winget.azureedge.net/cache",
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
 				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
 				"Name" : "winget",
 				"Type" : "Microsoft.PreIndexed.Package"
 			}
 		}
 	],
-	"WinGetVersion" : "0.3.11102"
+	"WinGetVersion" : "1.5.441-preview"
 }
