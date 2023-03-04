@@ -3,6 +3,7 @@
 These are some simple scripts that help me get a fresh machine set up
 
 Consider using [RemoveDefaultApps.ps1][] to uninstall lots of default apps that come with Windows out of the box.
+
 You may need to edit the list as you will probably want to keep some of the items that this script removes by default.
 
 ## Windows 11 :one: :one:
@@ -12,6 +13,7 @@ You may need to edit the list as you will probably want to keep some of the item
 `winget install "windows subsystem for linux" --source msstore`
 
 You may need to reboot the machine after this step.
+
 If this is the case, then the rebot is *mandatory*.
 
 ## 2. Install Ubuntu
@@ -19,7 +21,9 @@ If this is the case, then the rebot is *mandatory*.
 `winget install Ubuntu --source msstore`
 
 As part of this install you will need to set your Linux username and password.
+
 This can be the same or different to the Windows username and password.
+
 The password will need to be re-entered every time WSL restarts, so ti shoulld be memorable.
 
 ## Windows 10 :keycap_ten:
@@ -27,6 +31,7 @@ The password will need to be re-entered every time WSL restarts, so ti shoulld b
 ### 1. Enable-WSL-pre-restart
 
 This enables the WSL and VM features, ready to install WSL 2 distros.
+
 It is *mandatory* to restart the machine after this script completes and before installing the Linux kernel.
 
 ### 2. Enable-WSL-post-restart
@@ -36,10 +41,13 @@ Installs the Linux kernel on WSL and sets WSL to default to version 2 for distro
 ### 3. Install-Ubuntu
 
 Installs Ubuntu on WSL 2.
+
 This is the "version-less" Ubuntu from the Microsoft store.
+
 So it _should_ update when any new version is released.
 
 This assumes WSL is already enabled.
+
 This assumes WinGet is available
 
 This requires Linux username and password to be set towards the end of the script.
@@ -55,7 +63,9 @@ Requires winget-cli (from GitHub, see script comments for link).
 ## File-explorer-settings :gear:
 
 This sets some basic settings that I like for Windows File Explorer.
+
 It is also possible to configure these settings via the GUI.
+
 The script is based on Windows 10, I am not sure if all of the settings are applicable in Windows 11.
 
 ## TODO :memo:
