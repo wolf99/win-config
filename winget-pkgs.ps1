@@ -2,11 +2,12 @@
 #
 # Requirements
 #
-# - winget-cli (https://github.com/microsoft/winget-cli), i.e. install "App Installer" from Microsoft Store
+# - winget-cli (https://github.com/microsoft/winget-cli), 
+#   - On Windows 10 install "App Installer" from Microsoft Store
+#   - On Windows 11, winget is installed by default
 #
 # Not Installed
 #
-# - Mp3Tag.Mp3tag
 # - MS Office
 # - Artemis SBS
 #
