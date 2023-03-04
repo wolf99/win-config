@@ -2,19 +2,11 @@
     "$schema": "https://aka.ms/winget-settings.schema.json",
 
     // For documentation on these settings, see: https://aka.ms/winget-settings
-    // Use winget settings, to open existing settings file,
+    // Use the command `winget settings` to open the existing settings file in an editor,
     // or place this file at
     //   %LOCALAPPDATA%\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-    //
-    // "source": {
-    //    "autoUpdateIntervalInMinutes": 5
-    // },
 
     "telemetry": {
         "disable": true
-    },
-    "experimentalFeatures": {
-        "upgrade": true,
-        "export": true
     }
 }
