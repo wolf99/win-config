@@ -14,7 +14,7 @@ You may need to edit the list as you will probably want to keep some of the item
 
 You may need to reboot the machine after this step.
 
-If this is the case, then the rebot is *mandatory*.
+If this is the case, then the reboot is *mandatory*.
 
 ## 2. Install Ubuntu
 
@@ -24,7 +24,7 @@ As part of this install you will need to set your Linux username and password.
 
 This can be the same or different to the Windows username and password.
 
-The password will need to be re-entered every time WSL restarts, so ti shoulld be memorable.
+The password will need to be re-entered every time WSL restarts, so it shoulld be memorable.
 
 ## Windows 10 :keycap_ten:
 
