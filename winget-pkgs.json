@@ -1,12 +1,12 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
 	"CreationDate" : "2023-02-28T21:06:31.484-00:00",
-	"Sources" : 
+	"Sources" :
 	[
 		{
-			"Packages" : 
+			"Packages" :
 			[
-				
+
 				{
 					"PackageIdentifier" : "calibre.calibre"
 				},
@@ -23,6 +23,9 @@
 					"PackageIdentifier" : "MetaGeek.inSSIDer"
 				},
 				{
+					"PackageIdentifier": "Microsoft.PowerToys"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
@@ -35,13 +38,16 @@
 					"PackageIdentifier" : "Notepad++.Notepad++"
 				},
 				{
+					"PackageIdentifier": "PDFgear.PDFgear"
+				},
+				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
 				},
 				{
 					"PackageIdentifier" : "VideoLAN.VLC"
 				}
 			],
-			"SourceDetails" : 
+			"SourceDetails" :
 			{
 				"Argument" : "https://cdn.winget.microsoft.com/cache",
 				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
