@@ -77,5 +77,3 @@ The script is based on Windows 10, I am not sure if all of the settings are appl
   - VSCode Profiles should not be used in place of settings sync. Profiles are for a different use case and the related Gist functionality is for export and share rather than two-way sync.
 
 [RemoveDefaultApps.ps1]: https://github.com/microsoft/windows-dev-box-setup-scripts/blob/master/scripts/RemoveDefaultApps.ps1
-[VSCode profiles documentation]: https://code.visualstudio.com/docs/editor/profiles
-[VSCode profiles GitHub issue]: https://github.com/microsoft/vscode/issues/116740
