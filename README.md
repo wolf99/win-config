@@ -73,10 +73,8 @@ The script is based on Windows 10, I am not sure if all of the settings are appl
 - [x] Update existing information and scripts for Windows 11
 - [ ] Automate the download and install of my WT settings
 - [ ] Automate the download and install of my WSL Ubuntu dotfiles
-- [ ] Automate the sync and download of my VSCode settings if the sync plugin allows
-  - It may be possible to now use the settings profile feature built into VSCode istead of relying on this plugin
-    - [VSCode profiles documentation][]
-    - [VSCode profiles GitHub issue][]
+- [ ] Automate the sync and download of my VSCode settings if the vscode sync commands are exposed to CLI
+  - VSCode Profiles should not be used in place of settings sync. Profiles are for a different use case and the related Gist functionality is for export and share rather than two-way sync.
 
 [RemoveDefaultApps.ps1]: https://github.com/microsoft/windows-dev-box-setup-scripts/blob/master/scripts/RemoveDefaultApps.ps1
 [VSCode profiles documentation]: https://code.visualstudio.com/docs/editor/profiles
