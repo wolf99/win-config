@@ -1,14 +1,16 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-02-28T21:06:31.484-00:00",
+	"CreationDate" : "2025-05-08T20:02:15.013-00:00",
 	"Sources" :
 	[
 		{
 			"Packages" :
 			[
-
 				{
 					"PackageIdentifier" : "calibre.calibre"
+				},
+				{
+					"PackageIdentifier" : "FlorianHeidenreich.Mp3tag"
 				},
 				{
 					"PackageIdentifier" : "Git.Git"
@@ -17,13 +19,19 @@
 					"PackageIdentifier" : "Giorgiotani.Peazip"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier" : "Google.Chrome.EXE"
 				},
 				{
 					"PackageIdentifier" : "MetaGeek.inSSIDer"
 				},
 				{
-					"PackageIdentifier": "Microsoft.PowerToys"
+					"PackageIdentifier" : "Microsoft.AppInstaller"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
@@ -32,13 +40,22 @@
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				},
 				{
-					"PackageIdentifier" : "Mp3tag.Mp3tag"
+					"PackageIdentifier" : "Microsoft.DevHome"
+				},
+				{
+					"PackageIdentifier" : "Mozilla.Firefox"
 				},
 				{
 					"PackageIdentifier" : "Notepad++.Notepad++"
 				},
 				{
-					"PackageIdentifier": "PDFgear.PDFgear"
+					"PackageIdentifier" : "OpenWhisperSystems.Signal"
+				},
+				{
+					"PackageIdentifier" : "PDFgear.PDFgear"
+				},
+				{
+					"PackageIdentifier" : "qBittorrent.qBittorrent"
 				},
 				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
@@ -56,5 +73,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.5.441-preview"
+	"WinGetVersion" : "1.11.230-preview"
 }
